@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  STUDENT REGISTER    "
+        android:drawableLeft="@drawable/student"
+        android:background="@drawable/roundbtn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnstudent"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  COURSES "
+        android:drawableLeft="@drawable/courses"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbtn"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btncourse"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  SEARCH  "
+        android:drawableLeft="@drawable/search"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbtn"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnsearch"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  ABOUT "
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/about"
+        android:background="@drawable/roundbtn"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnabout"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  EXIT  "
+        android:background="@drawable/roundbtn"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/exit"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnexit"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

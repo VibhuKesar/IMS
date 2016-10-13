@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InstituteManagementSystem</string>
+    <string-array name="courses">
+        <item>Select Course</item>
+        <item>JAVA</item>
+        <item>C++</item>
+        <item>CN</item>
+        <item>ANDROID</item>
+        <item>DBMS</item>
+        <item>C</item>
+    </string-array>
+</resources>
