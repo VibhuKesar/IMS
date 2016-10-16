@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="#162017"
-    tools:context="com.example.libbnamathew.institutemanagementsystem.ActCourseEnquiry">
+    tools:context="com.example.vaibhavsuri.institutemanagementsystem.ActCourseEnquiry">
 
     <LinearLayout
         android:layout_width="match_parent"

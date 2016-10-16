@@ -1,4 +1,4 @@
-package com.example.libbnamathew.institutemanagementsystem;
+package com.example.vaibhavsuri.institutemanagementsystem;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.example.libbnamathew.institutemanagementsystem"
+        applicationId "com.example.vaibhavsuri.institutemanagementsystem"
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1

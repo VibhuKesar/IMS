@@ -1,4 +1,4 @@
-package com.example.libbnamathew.institutemanagementsystem;
+package com.example.vaibhavsuri.institutemanagementsystem;
 
 import android.content.Intent;
 import android.os.Handler;
