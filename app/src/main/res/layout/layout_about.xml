@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffffff">
-
-    <ImageButton
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:padding="50dp">
+    <!-- ListRow Left side Thumbnail image -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:background="@drawable/adam"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="150dp"
-        android:layout_marginBottom="350dp"
-        android:layout_marginLeft="150dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+        <ImageView
+            android:id="@+id/list_image"
+            android:contentDescription="@string/app_name"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:src="@drawable/adam"
+            android:layout_marginLeft="79dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom ="10dip"
+        android:layout_marginTop="29dp"
+        android:text="ABOUT US"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginEnd="32dp" />
 
-</LinearLayout>
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our College&apos;s proud history over more than three decades can easily be divided into three eras.  In the fall of 1965, the institution opened its doors as the Sault Ste. Marie Ontario Vocational Centre, or OVC. Similar began in London and Ottawa.
+The OVCs evolved into Ontario's community colleges. In 1967 the Ontario government established a system of Colleges of Applied Arts and Technology, more often known as community colleges.
+Sault Ste. Marie's OVC became the Sault Campus of the newly established Cambrian College of Applied Arts and Technology. Its main campus was located in Sudbury."
+        android:id="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvCity" />
+</RelativeLayout>

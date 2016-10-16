@@ -23,7 +23,6 @@
                 android:layout_height="wrap_content"
                 android:text="New Text"
                 android:textColor="#404"
-                android:fontFamily="casual"
                 android:id="@+id/adapter_all_student_tv_reg" />
         </LinearLayout>
 
@@ -37,7 +36,6 @@
                 android:layout_height="wrap_content"
                 android:text="New Text"
                 android:textColor="#404"
-                android:fontFamily="casual"
                 android:id="@+id/adapter_all_student_tv_name" />
 
             <TextView
@@ -45,7 +43,6 @@
                 android:layout_height="wrap_content"
                 android:text="New Text"
                 android:textColor="#404"
-                android:fontFamily="casual"
                 android:id="@+id/adapter_all_student_tv_father"
                 android:layout_marginLeft="100dp"/>
         </LinearLayout>
@@ -59,7 +56,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:fontFamily="casual"
                 android:textColor="#404"
                 android:id="@+id/adapter_all_student_tv_course" />
 
@@ -67,7 +63,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
-                android:fontFamily="casual"
                 android:textColor="#404"
                 android:id="@+id/adapter_all_student_tv_add"
                 android:layout_marginLeft="100dp"/>
