@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <EditText
+            android:id="@+id/et_Username"
+            android:layout_width="fill_parent"
+            android:hint="UserName"
+            android:padding="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp">
+        <EditText
+            android:id="@+id/et_Password"
+            android:layout_width="fill_parent"
+            android:hint="Password"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  SIGN IN    "
+        android:background="@drawable/roundbtn"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:id="@+id/bt_SignIn"
+        android:padding="2dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tv_Message"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+</LinearLayout>

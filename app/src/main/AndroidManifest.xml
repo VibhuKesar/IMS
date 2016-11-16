@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="loginwork.LoginActivity"/>
+        <activity android:name="teacherims.DecisionActivity"/>
+        <activity android:name="teacherims.AboutMe1"/>
+        <activity android:name="teacherims.SearchActivity1"/>
+        <activity android:name="teacherims.SearchAll1"/>
+        <activity android:name="teacherims.StudentActivity1"/>
+        <activity android:name="teacherims.MainActivity1"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".StudentActivity"/>
         <activity android:name=".SearchActivity"/>

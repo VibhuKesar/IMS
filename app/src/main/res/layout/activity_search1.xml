@@ -184,7 +184,7 @@
                 android:id="@+id/search_btn_allStudent"
                 android:layout_width="wrap_content"
                 android:layout_weight="10"
-                android:text="All Students"
+                android:text="All TEACHERS"
                 android:textSize="20dp"
                 android:onClick="onClick"
                 android:clickable="true"

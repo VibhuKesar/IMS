@@ -5,6 +5,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import teacherims.DecisionActivity;
+
 public class Splash extends AppCompatActivity {
 
     public static int Time = 2000;
@@ -17,7 +19,7 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {                  //runnable is a class contains RUN()
             @Override
             public void run() {
-                Intent i = new Intent(Splash.this, MainActivity.class);
+                Intent i = new Intent(Splash.this, DecisionActivity.class);
                 startActivity(i);
                 finish();
             }
