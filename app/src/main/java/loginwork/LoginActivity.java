@@ -3,6 +3,7 @@ package loginwork;
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -26,6 +27,8 @@ public class LoginActivity extends AppCompatActivity {
     private Button bt_SignIn;
     // Message
     private TextView tv_Message;
+
+    public static int Time = 1000;
 
     @Override
     public void onBackPressed()
@@ -64,8 +67,15 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
                 } else {
                     tv_Message.setText("Login Unsuccessful!");
-                    startActivity(new Intent(LoginActivity.this, DecisionActivity.class));
-                    finish();
+                    new Handler().postDelayed(new Runnable() {                  //runnable is a class contains RUN()
+                        @Override
+                        public void run() {
+                            startActivity(new Intent(LoginActivity.this, DecisionActivity.class));
+                            finish();
+                        }
+
+
+                    }, Time);
                 }
             }
         });

@@ -10,7 +10,7 @@ import teacherims.DecisionActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnstudent,btncourse,btnsearch,btnexit,btnabout;
+    Button btnstudent,btnsearch,btnexit;
 
     @Override
     public void onBackPressed()
@@ -27,10 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnstudent=(Button)findViewById(R.id.btnstudent);
-        btncourse=(Button)findViewById(R.id.btncourse);
         btnsearch=(Button)findViewById(R.id.btnsearch);
         btnexit=(Button)findViewById(R.id.btnexit);
-        btnabout=(Button)findViewById(R.id.btnabout);
 
         btnstudent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,15 +51,6 @@ public class MainActivity extends AppCompatActivity {
            }
        });
 
-        btncourse.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,ActCourseEnquiry.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
         btnexit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,15 +59,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnabout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,AboutMe.class);
-                startActivity(i);
-            }
-        });
-
-
-
-    }
+   }
 }

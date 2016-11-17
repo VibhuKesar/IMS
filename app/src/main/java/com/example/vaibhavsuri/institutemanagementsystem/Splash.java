@@ -9,7 +9,7 @@ import teacherims.DecisionActivity;
 
 public class Splash extends AppCompatActivity {
 
-    public static int Time = 2000;
+    public static int Time = 1050;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
+import teacherims.DecisionActivity;
+
 public class ActCourseEnquiry extends AppCompatActivity {
 
     @Override
     public void onBackPressed()
     {
         super.onBackPressed();
-        startActivity(new Intent(ActCourseEnquiry.this, MainActivity.class));
+        startActivity(new Intent(ActCourseEnquiry.this, DecisionActivity.class));
         finish();
 
     }

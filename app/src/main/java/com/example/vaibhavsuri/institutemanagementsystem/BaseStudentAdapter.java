@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by Libbna Mathew on 26-07-2016.
- */
 public class BaseStudentAdapter extends BaseAdapter{
 
     private LayoutInflater inflater;

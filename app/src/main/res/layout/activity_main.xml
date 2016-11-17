@@ -10,22 +10,11 @@
         android:drawableLeft="@drawable/student"
         android:background="@drawable/roundbtn"
         android:textColor="#ffffff"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:id="@+id/btnstudent"
         android:padding="2dp"
         android:layout_gravity="center_horizontal" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="  COURSES "
-        android:drawableLeft="@drawable/courses"
-        android:textColor="#ffffff"
-        android:background="@drawable/roundbtn"
-        android:layout_marginTop="30dp"
-        android:id="@+id/btncourse"
-        android:padding="2dp"
-        android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
@@ -39,17 +28,6 @@
         android:id="@+id/btnsearch"
         android:layout_gravity="center_horizontal" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="  ABOUT "
-        android:textColor="#ffffff"
-        android:drawableLeft="@drawable/about"
-        android:background="@drawable/roundbtn"
-        android:layout_marginTop="30dp"
-        android:id="@+id/btnabout"
-        android:padding="2dp"
-        android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
